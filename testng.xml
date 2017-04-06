@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.thed.zephyr.bvt.ApiBvt"/>
+      <methods>
+      <!-- <include name="test2_getSystemInfo"></include>
+      <include name="test3_getModuleInfo"></include>
+      <include name="test4_getLicenseInfo"></include>
+      <include name="test5_getProjects"></include>
+      <include name="test6_getVersionsByProject"></include>
+      <include name="test7_getProjectMetadata"></include>
+      <include name="test8_getExecutionStatus"></include>
+      <include name="test9_getTestStepExecutionStatus"></include>
+      <include name="test10_getDashboardByName"></include>
+      <include name="test11_getIssues"></include>
+      <include name="test12_createTeststep"></include>
+      <include name="test13_createTeststepWithWiki"></include>
+      <include name="test14_getTeststepByIssueId"></include>
+      <include name="test15_getTeststepByStepId"></include>
+      <include name="test16_moveTeststep"></include>
+      <include name="test17_updateTeststep"></include>
+      <include name="test18_cloneTeststepAtSecondPosition"></include>
+      <include name="test19_cloneTeststepWithWikiMarkup"></include>
+      <include name="test20_deleteTeststep"></include>
+      
+      <include name="test23_createCycleplannedverion"></include>
+      <include name="test24_cloneupdateCycle"></include>
+      <include name="test25_updateCycle"></include> -->
+      
+      <!-- <include name="test26_updateCyclesprintid"></include>
+      <include name="test27_getCycleByProjectId"></include>
+      <include name="test28_getCycle"></include> -->
+      
+     <!--  <include name="test43_addTestsToCycle"></include> -->
+     
+      <!-- <include name="test44_addTestsToScheduleCycle"></include> -->
+      <!-- <include name="test45_getExecutionsByCycleId"></include>
+       <include name="test46_getExecutionsById"></include>
+      <include name="test34_executeTest"></include>
+      <include name="test35_executeSearch"></include>
+       <include name="test38_getExecutionsByCycleId"></include>
+        <include name="test40_exportCycle"></include>
+       <include name="test47_deleteExecution"></include>
+       <include name="test39_deleteCycle"></include> -->
+       
+       
+        <!-- <include name="test45_getExecutionsByCycleId"></include>
+         <include name="test34_executeTest"></include> -->
+      
+      
+      <!-- <include name="test58_getTeststepResultByExecutionId"></include>
+      <include name="test59_executionUpdateWithBulkDefects"></include>
+      <include name="test60_getDefectsByExecutionID"></include> -->
+      
+      <!-- <include name="test65_createTestStepResultWithoutStatus"></include>
+      <include name="test58_getTeststepResultByExecutionId"></include>
+      <include name="test66_getTeststepResultByID"></include>
+      <include name="test67_updateTeststepResult"></include>
+      <include name="test68_getStepResultDefects"></include>
+      <include name="test69_getStepDefectsByExecutionID"></include> -->
+      
+     <!--  <include name="test70_addAttachment"></include>
+      <include name="test71_addAttachment"></include>
+      <include name="test72_getAttachment"></include>
+      <include name="test73_getAttachment"></include>
+      <include name="test74_getAttachment"></include>
+      <include name="test75_getAttachment"></include>
+      <include name="test76_deleteAttachment"></include>
+      <include name="test77_deleteAttachment"></include> -->
+     <!--  <include name="test78_getZqlClauses"></include>
+      <include name="test79_getZQLAutocompleteJson"></include>
+      <include name="test80_getZQLAutocomplete"></include>      
+      <include name="test81_loggedinUser"></include>
+      <include name="test82_createExecutionFilter"></include>
+      <include name="test83_createPrivateFilter"></include>
+      <include name="test84_updateExecutionFilter"></include>
+      <include name="test85_renameExecutionFilter"></include>
+      <include name="test86_copyExecutionFilter"></include>
+      <include name="test87_getExecutionFilterById"></include>
+      <include name="test88_searchExecutionFilter"></include>
+       <include name="test90_deleteExecutionFilter"></include>
+        <include name="test91_getFavFilter"></include>
+         <include name="test92_createColumnSelection"></include>
+          <include name="test93_getColumnSelection"></include>
+           <include name="test94_updateColumnSelection"></include>
+            <include name="test96_quickSearchZQLFilter"></include> -->
+            
+            
+             <!-- <include name="test90_deleteExecutionFilter"></include>
+              <include name="test90_deleteExecutionFilter"></include>
+               <include name="test90_deleteExecutionFilter"></include>
+       
+        <include name="test40_exportCycle"></include>
+         <include name="test39_deleteCycle"></include>
+         
+         <include name="test117_getAuditLogs"></include>
+         <include name="test118_getAuditByExecutionId"></include> -->
+         
+         <!-- <include name="test54_BulkUpdateStatus"></include>
+         <include name="test55_BulkAssignCurrentuser"></include>
+         <include name="test56_BulkAssignAnotherUser"></include>
+         <include name="test57_BulkUnassign"></include>
+         <include name="test59_executionUpdateWithBulkDefects"></include>
+         <include name="test60_getDefectsByExecutionID"></include>
+         <include name="test62_getExecutionsSummaryBySprintAndIssueID"></include>
+         <include name="test63_exportsExecutions"></include>
+         <include name="test64_deleteMultipleExecutions"></include> -->
+        
+         <!-- <include name="test54_BulkUpdateStatus"></include>
+         <include name="test64_deleteMultipleExecutions"></include> -->
+         
+         <!-- <include name="test114_indexExecution"></include>
+         <include name="test115_indexStatus"></include>
+         <include name="test116_refreshReomteLinks"></include> -->
+         <!-- <include name="test117_getAuditLogs"></include>
+         <include name="test118_getAuditByExecutionId"></include> -->
+         <!-- <include name="test54_BulkUpdateStatus"></include> -->
+         
+         
+         <include name="test10_getDashboardByName"></include>
+         <include name="test41_getSearchFilter"></include>
+         
+         <include name="bvt107_searchExecutionsByTest"></include>
+         <include name="bvt108_searchExecutionsByRequirement"></include>
+         <include name="bvt109_searchExecutionsByDefect"></include>
+         <include name="bvt110_searchExecutionsByDefect"></include>
+         <include name="bvt111_searchDefectStatistics"></include>
+         <include name="bvt112_exportTraceability"></include>
+         <include name="bvt113_exportTraceability"></include>
+         
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
